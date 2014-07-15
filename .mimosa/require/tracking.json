@@ -1,0 +1,42 @@
+{
+  "shims": {
+    "/javascripts/main.js": null
+  },
+  "deps": {
+    "/here/bootstrap/js/bootstrap.js": [],
+    "/here/bootstrap/js/bootstrap.min.js": [],
+    "/here/includes/js/jquery-1.8.2.min.js": [],
+    "/here/includes/js/modernizr-2.6.2.min.js": [],
+    "/here/includes/js/script.js": [],
+    "/javascripts/app/example-view.js": [
+      "jquery",
+      "templates"
+    ],
+    "/javascripts/main.js": [
+      "app/example-view"
+    ],
+    "/javascripts/templates.js": [
+      "vendor/jade-runtime"
+    ],
+    "/javascripts/vendor/jade-runtime.js": []
+  },
+  "aliases": {
+    "/javascripts/main.js": {
+      "jquery": "vendor/jquery/jquery"
+    }
+  },
+  "mappings": {
+    "/javascripts/main.js": null
+  },
+  "packages": {
+    "/javascripts/main.js": null
+  },
+  "originalConfig": {
+    "paths": {
+      "jquery": "vendor/jquery/jquery"
+    }
+  },
+  "requireFiles": [
+    "/javascripts/main.js"
+  ]
+}
