@@ -1,0 +1,10 @@
+{
+  "name": "myApp",
+  "version": "0.0.1",
+  "description": "A Mimosa starter skeleton",
+  "devDependencies": {
+    "mimosa-coffeescript": "*",
+    "mimosa-stylus": "*",
+    "mimosa-jade": "*"
+  }
+}
